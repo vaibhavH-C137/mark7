@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #6408cccc;
+    --black: #333333;
+    --width-break:600px
+}
+
+body {
+    margin: 0;
+    background-image: url(/);
+    font-family: 'Itim', cursive;
+    color: #333333;
+    max-width: 700px;
+    margin: auto;
+    background-position: top left;
+    background-repeat: round;
+    font-size: larger;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    }
+
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+
+#translate-output {
+    box-sizing: border-box;
+    color: rgb(12, 0, 121);
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid var(--black);
+    background-color: rgba(53, 48, 45, 0.897);
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+
+}
+
+footer p {
+    max-width: var(--width-break);
+    text-align: center;
+    /* margin: auto; */
+}
+
