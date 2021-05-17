@@ -12,14 +12,15 @@
 
 body {
     margin: 0;
-    background-image: url(/);
+    background-image: url("/arg-pirate-ship-talk-like-a-pirate-day-207x165-url.gif");
     font-family: 'Itim', cursive;
     color: #333333;
     max-width: 700px;
     margin: auto;
-    background-position: top left;
-    background-repeat: round;
+    background-position: center;
+    background-repeat: inherit;
     font-size: larger;
+
 }
 
 nav {
@@ -86,3 +87,8 @@ footer p {
     /* margin: auto; */
 }
 
+.hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
